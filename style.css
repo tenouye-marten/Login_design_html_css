@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #002b53;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kotak-login{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 3) ;
+    max-width: 800px;
+    max-height: 50vh;
+    height: 100%;
+    width: 100%;
+}
+
+.gambar-samping{
+    flex: 1;
+    padding: 10px;
+    background: url("gambar/07.png") no-repeat center center;
+    background-size: cover;
+    border-radius: 20px;
+    border: 10px solid white;
+}
+
+.form-login{
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.kotak-input{
+ 
+    margin-bottom: 20px;
+
+}
+
+.kotak-input input{
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.tombol-mulai{
+    background-color: #0052cc ;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tombol-mulai:hover{
+    background: #003f99;
+}
+
+
+
+
+
+
+
+
+
+
